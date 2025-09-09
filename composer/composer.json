@@ -1,0 +1,14 @@
+{
+  "name": "eliel/composer",
+  "description": "Estudando sobre composer",
+  "type": "project",
+  "authors": [
+    {
+      "name": "Eliel-DM",
+      "email": "elieldiasmatos@gmail.com"
+    }
+  ],
+  "require": {
+    "mpdf/mpdf": "^8.2"
+  }
+}
