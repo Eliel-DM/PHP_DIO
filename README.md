@@ -19,6 +19,9 @@ Os códigos abordam conceitos básicos e intermediários da linguagem.
 - 🛠️ **[Debug&Exceptions](./Debug&Exceptions)**  
   Prática de tratamento de erros e exceções em PHP, incluindo blocos `try/catch` e debug de código.
 
+- 📦 **[Composer](./Composer)**
+  Estudo sobre o gerenciador de pacotes do PHP, suas operações básicas e a identificação de dependências via Packagist.
+
 ---
 
 ## 🚀 Tecnologias Utilizadas
