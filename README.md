@@ -24,6 +24,8 @@ Os códigos abordam conceitos básicos e intermediários da linguagem.
 
 ---
 
+#### toglle_xampp.hs - Iniciar e parar o Xampp
+
 ## 🚀 Tecnologias Utilizadas
 
 - PHP 8.x
