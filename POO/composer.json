@@ -1,0 +1,14 @@
+{
+    "name": "elieldiasmatos/poo",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Eliel Dias Matos"
+        }
+    ],
+    "require": {}
+}
