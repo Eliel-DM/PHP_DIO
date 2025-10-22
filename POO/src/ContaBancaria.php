@@ -3,14 +3,18 @@
 declare(strict_types=1);
 
 namespace App;
+use App\Contratos\DadosContaBancariaInterface;
 
- class ContaBancaria{
+use App\Contratos\OperacoesContaBancariaInterface;
+
+
+abstract class ContaBancaria implements DadosContaBancariaInterface, OperacoesContaBancariaInterface{
 
     private string $banco;
     private string $nomeTitular;
     private string $numeroAgencia;
     private string $numeroConta;
-    private float $saldo;
+    protected float $saldo;
 
     //Contututor para facilitar a implementação 
 
@@ -38,7 +42,11 @@ namespace App;
         ];
     }
 
-    p    }
+
+    public abstract function obterSaldo() : string;
+
+
+
     public function setBanco(string $banco): void {
         $this->banco = $banco;
     }
@@ -60,7 +68,7 @@ namespace App;
     public function setNumeroConta(string $numeroConta): void {
         $this->numeroConta = $numeroConta;
     }
-    public function getSaldo(): float {
+    public function getSaldo(): float{
         return $this->saldo;
     }
     public function setSaldo(float $saldo): void {
